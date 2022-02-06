@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Super Trunfo - Dia 8</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 08
+  </title>
+</head>
+
+<body>
+  <div class="container">
+    <img src="https://i.postimg.cc/jqJt22VK/logo-pokemon.png" class="logo-pokemon" alt=""><br>
+    <!--     <img src"https://i.postimg.cc/jqJt22VK/logo-pokemon.png" class="logo-pokemon" alt=""> -->
+    <!--     <h1 class="page-title">Super Trunfo</h1> -->
+    <div class="resultado">
+
+      <div id="divJogador">JOGADOR</div>
+      <div id="pJogador"></div>
+      <div id="vs">vs</div>
+      <div id="pMaquina"></div>
+      <div id="divMaquina">COMPUTADOR</div>
+
+    </div>
+    <button class="button-sortear" onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+    <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+    <form id="form">
+      <h2>Escolha o seu atributo</h2>
+      <div class="wrapper">
+        <div>
+          <div id="carta-jogador">
+            <img src="https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg" style=" width: inherit; height: inherit; position: absolute;">
+            <h3></h3>
+          </div>
+        </div>
+        <div>
+          <div id="carta-maquina" class="carta"><img src="https://tcg.pokemon.com/assets/img/global/tcg-card-back.jpg" style=" width: inherit; height: inherit; position: absolute;"></div>
+        </div>
+      </div>
+
+      <div id="resultado"></div>
+    </form>
+  </div>
+  <footer class="footer">
+    <div>
+      <p>Developed by Flavia Almeida </p>
+    </div>
+  </footer>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
